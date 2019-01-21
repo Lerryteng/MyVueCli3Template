@@ -23,6 +23,7 @@ const genPlugins = () => {
 }
 
 module.exports = {
+  publicPath: './',
   configureWebpack: () => ({
     name: 'vue-cli3-template',
     resolve: {
